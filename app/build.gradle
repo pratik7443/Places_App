@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.2"
-    useLibrary 'org.apache.http.legacy'
+
 
     defaultConfig {
         applicationId "pratik.mynavapp"
@@ -16,10 +16,10 @@ android {
     productFlavors {
 
         prod {
-            applicationId = 'pratik.mynavapp.prod'
+            applicationId "pratik.mynavapp.prod"
         }
         sandbox {
-            applicationId = 'pratik.mynavapp.sandbox'
+            applicationId "pratik.mynavapp.sandbox"
         }
 
     }

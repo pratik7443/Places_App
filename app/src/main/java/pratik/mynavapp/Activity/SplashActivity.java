@@ -119,8 +119,8 @@ public class SplashActivity extends AppCompatActivity {
                     .build().toString();
 
             // String response = GET(uri);
-            String response = jsonParser.GET(Url.url);
-
+           // String response = jsonParser.GET(Url.url);
+            String response = jsonParser.getJSON(Url.url);
             L.m("response :" + response.toString());
 
             JSONArray jsonarray = null;
